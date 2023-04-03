@@ -1,0 +1,11 @@
+// Pseudocode
+
+// Passport.js JWT strategy
+// Middleware for protected routes
+// Token-based authentication
+
+// API Endpoints:
+POST /auth/login -> Log in user and return JWT
+POST /auth/register -> Register a new user and return JWT
+POST /auth/forgot-password -> Send password reset email
+POST /auth/reset-password -> Reset the user's password
