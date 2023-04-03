@@ -1,0 +1,21 @@
+// Pseudocode
+
+User {
+  username: String,
+  email: String,
+  password: String,
+  bio: String,
+  avatar: String,
+  followers: [User],
+  following: [User],
+  tweets: [Tweet],
+}
+
+Tweet {
+  author: User,
+  content: String,
+  timestamp: Date,
+  likes: Number,
+  retweets: Number,
+  replies: [Tweet],
+}
