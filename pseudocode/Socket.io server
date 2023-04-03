@@ -1,0 +1,9 @@
+// Pseudocode
+
+// Backend:
+// Set up Socket.IO server
+// Emit events for tweet creation, updates, and deletions
+
+// Frontend:
+// Set up Socket.IO client
+// Listen for events and update UI accordingly
