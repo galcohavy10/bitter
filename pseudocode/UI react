@@ -1,0 +1,15 @@
+// Pseudocode
+
+// Components:
+App -> Main app container
+Navigation -> Top navigation bar
+TweetList -> List of tweets
+Tweet -> Individual tweet component
+UserProfile -> User profile page
+CreateTweet -> Form for creating a new tweet
+
+// Pages:
+Home -> Display recent tweets
+Login -> Login page
+Register -> Registration page
+Profile -> User profile page
