@@ -87,4 +87,9 @@ Bitter is an open-source, professional mock social media app designed to imitate
   Bitter is an open-source project, and contributions are welcome! Please read our CONTRIBUTING.md file for guidelines on how to contribute to this project.
 
 **License**
-This project was built and developed solely (so far) by Gal Cohavy
+This project was built and developed solely (so far) by Gal Cohavy and GPT4.
+
+**NOTES**
+It is, hopefully still, worth mentioning that this app was built partially by a human but almost exclusively built from AI-generated responses. Including the ReadMe.
+
+
