@@ -1,0 +1,12 @@
+// Pseudocode
+
+// API Endpoints:
+GET /users/:username -> Fetch user by username
+POST /users -> Create a new user
+PUT /users/:username -> Update user by username
+DELETE /users/:username -> Delete user by username
+
+GET /tweets -> Fetch all tweets
+POST /tweets -> Create a new tweet
+PUT /tweets/:id -> Update a tweet by ID
+DELETE /tweets/:id -> Delete a tweet by ID
