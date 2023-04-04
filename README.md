@@ -32,6 +32,65 @@ Bitter is an open-source, professional mock social media app designed to imitate
     Real-time updates: Socket.IO
     Technology stack
 
+**Order of Operations**
+Build schemas:
+
+Design and create the necessary MongoDB schemas using Mongoose to define the structure of your data.
+Examples: User, Tweet, Comment, Media, Notification, Conversation, Message, and Relationship.
+Build endpoints:
+
+Create RESTful API endpoints to interact with the data.
+Examples:
+Users: Create, read, update, and delete users.
+Authentication: Login, register, and password reset.
+Tweets: Create, read, update, and delete tweets, including likes and retweets.
+Comments: Create, read, update, and delete comments.
+Media: Upload and attach media files to tweets.
+Notifications: Fetch and mark notifications as read.
+Conversations: Create, fetch, and delete conversations.
+Messages: Send and fetch messages within a conversation.
+Relationships: Follow and unfollow users.
+Middleware and API logic:
+
+Implement middleware functions to handle various tasks such as authentication, validation, error handling, and rate limiting.
+Examples:
+Authentication middleware: Verify JWT tokens and protect routes.
+Validation middleware: Check request data for correctness and consistency.
+Error handling middleware: Catch and respond to exceptions and errors.
+Rate limiting middleware: Limit the number of requests from a single IP address.
+Frontend React logic:
+
+Develop the frontend application using React, breaking the UI into reusable components.
+Examples:
+Components: Header, Footer, TweetList, Tweet, UserProfile, CreateTweet, Home, Login, Register, Profile, etc.
+State management: Use hooks or a state management library like Redux to handle application state.
+Routing: Implement client-side routing using React Router or another routing library.
+Frontend functionality and navigation:
+
+Implement interactivity and navigation for the frontend application.
+Examples:
+User actions: Login, register, edit profile, follow/unfollow users.
+Tweet actions: Create, edit, delete, like, retweet, and comment on tweets.
+Messaging: Send and receive messages in conversations.
+Notifications: Display and interact with notifications.
+Navigation: Use client-side routing to navigate between different views and components.
+With these steps, you can build a fully functional social media application that imitates Twitter's core features. Additional features and improvements can be added as necessary to meet specific requirements or enhance the user experience.
+
+<pre>
+┌────────────────────────┐       ┌────────────────────────┐       ┌────────────────────────┐
+│                        │       │                        │       │                        │
+│   <b>Frontend:</b>             │       │   <b>Backend:</b>              │       │   <b>Database:</b>             │
+│   ──────────────────── │       │   ──────────────────── │       │   ──────────────────── │
+│   • React             │◀──────►│   • Node.js            │◀──────►│   • MongoDB           │
+│   • Redux (optional)  │       │   • Express             │       │                        │
+│   • React Router      │       │   • Mongoose            │       │                        │
+│   • Axios             │       │   • JSON Web Tokens     │       │                        │
+│   • Material-UI       │       │   • Passport (optional) │       │                        │
+│                        │       │                        │       │                        │
+└────────────────────────┘       └────────────────────────┘       └────────────────────────┘
+</pre>
+This updated diagram provides more details about the technologi
+
 **Installation Prerequisites**
     Node.js (version 14 or higher)
     MongoDB (version 4.4 or higher)
