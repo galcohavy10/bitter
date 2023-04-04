@@ -89,7 +89,7 @@ With these steps, you can build a fully functional social media application that
 │                        │       │                        │       │                        │
 └────────────────────────┘       └────────────────────────┘       └────────────────────────┘
 </pre>
-This updated diagram provides more details about the technologi
+This updated diagram provides more details about the technologies that interact with one another.
 
 **Installation Prerequisites**
     Node.js (version 14 or higher)
