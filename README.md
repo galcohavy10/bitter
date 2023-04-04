@@ -39,41 +39,23 @@ Bitter is an open-source, professional mock social media app designed to imitate
     
     
 **Steps**
-  Clone the repository:
-  bash
-  Copy code
-  git clone https://github.com/yourusername/bitter.git
-  cd bitter
-  Install dependencies for the backend:
-  bash
-  Copy code
-  cd backend
-  npm install
-  Install dependencies for the frontend:
-  bash
-  Copy code
-  cd frontend
-  npm install
-  Create a .env file in the backend directory and add the required environment variables:
-  makefile
-  Copy code
-  MONGODB_URI=mongodb://localhost:27017/bitter
-  JWT_SECRET=your-secret-key
-  SMTP_HOST=your-smtp-host
-  SMTP_PORT=your-smtp-port
-  SMTP_USER=your-smtp-username
-  SMTP_PASS=your-smtp-password
-  Start the backend server:
-  bash
-  Copy code
-  cd backend
-  npm start
-  Start the frontend server (in a new terminal window):
-  bash
-  Copy code
-  cd frontend
-  npm start
-  Bitter should now be running at http://localhost:3000.
+  Install Git: Before you can clone a repository, you need to have Git installed on your computer. You can download and install Git from the official website: https://git-scm.com/downloads.
+
+Open a terminal (Command Prompt, PowerShell, or Terminal on macOS/Linux) and navigate to the folder where you want to clone the repository. For example, if you want to clone the repository in the "projects" folder located in your user directory, you can run:
+
+bash (terminal)
+cd ~/projects
+Replace ~/projects with the appropriate path on your system.
+
+Clone the repository: In your terminal, run the following command:
+
+bash (terminal)
+git clone https://github.com/galcohavy10/bitter.git
+The repository will be cloned into a new folder named "bitter" in the current directory. You can now navigate to the newly created folder:
+
+bash (terminal)
+cd bitter
+You have now successfully cloned the "bitter" Git repository from "galcohavy10" on GitHub and can start working on the project!
 
 **Usage**
   Register a new account or sign in with an existing one
@@ -90,6 +72,4 @@ Bitter is an open-source, professional mock social media app designed to imitate
 This project was built and developed solely (so far) by Gal Cohavy and GPT4.
 
 **NOTES**
-It is, hopefully still, worth mentioning that this app was built partially by a human but almost exclusively built from AI-generated responses. Including the ReadMe.
-
-
+It is, hopefully still, worth mentioning that this app was built partially by a human but almost exclusively built from AI-generated responses. This project was created to show the power of AI prompt engineering. It is worth noting that I was already quite knowledgable in these languages and able to guide GPT4 through the processes using prompts. Hopefully, humans will always be necessary for some reason or another- I quite like humans and it'd be a shame for our existence to be useless :).
