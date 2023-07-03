@@ -3,7 +3,10 @@ Bitter - A Mock Twitter-like Social Media App
 
 ![Untitled design](https://user-images.githubusercontent.com/96891588/229640942-02aff651-96d2-457b-8591-e6656f8a755b.png)
 
-Bitter is an open-source, professional mock social media app designed to imitate Twitter's functionality. It provides a platform for users to share short messages and engage with others. This project is intended for educational purposes and can be used as a base for building similar applications. Bitter is built using React for the frontend, Node.js for the backend, and MongoDB for the database. Bitter began development on April 3rd, 2023.
+Bitter is an open-source, professional mock social media app designed to imitate Twitter's functionality. 
+
+I built this project to model a super-stack that would serve the capabilities of uStock: a large project I'm not ready to publish yet.
+The purpose wasn't to finish production, since I'm building something else but to figure out the full stack that would work and the workflow as well.
 
 
 **Table of Contents**
@@ -79,13 +82,13 @@ With these steps, you can build a fully functional social media application that
 <pre>
 ┌────────────────────────┐       ┌────────────────────────┐       ┌────────────────────────┐
 │                        │       │                        │       │                        │
-│   <b>Frontend:</b>             │       │   <b>Backend:</b>              │       │   <b>Database:</b>             │
+│   <b>Frontend:</b>     |       │   <b>Backend:</b>      |       │   <b>Database:</b>     |        
 │   ──────────────────── │       │   ──────────────────── │       │   ──────────────────── │
-│   • React             │◀──────►│   • Node.js            │◀──────►│   • MongoDB           │
-│   • Redux (optional)  │       │   • Express             │       │                        │
-│   • React Router      │       │   • Mongoose            │       │                        │
-│   • Axios             │       │   • JSON Web Tokens     │       │                        │
-│   • Material-UI       │       │   • Passport (optional) │       │                        │
+│   • React              │◀──────|  • Node.js             │◀──────│  • MongoDB             |
+│   • Redux (optional)   │       │   • Express            │       │                        │
+│   • React Router       │       │   • Mongoose           │       │                        │
+│   • Axios              │       │   • JSON Web Tokens    │       │                        │
+│   • Material-UI        │       │   • Passport (optional)│       │                        │
 │                        │       │                        │       │                        │
 └────────────────────────┘       └────────────────────────┘       └────────────────────────┘
 </pre>
@@ -128,10 +131,6 @@ You have now successfully cloned the "bitter" Git repository from "galcohavy10" 
   Use comments on endpoints to fully grasp the API functionality.
 
 **Contributing**
-  Bitter is an open-source project, and contributions are welcome! Please read our CONTRIBUTING.md file for guidelines on how to contribute to this project.
+Bitter is an open-source project, and contributions are welcome! This documentation, models and routing were for me to solve the problem not the build (I did it on a separate problem), but feel free to commit anything you want.
 
-**License**
-This project was built and developed solely (so far) by Gal Cohavy and GPT4.
 
-**NOTES**
-It is, hopefully still, worth mentioning that this app was built partially by a human but almost exclusively built from AI-generated responses. This project was created to show the power of AI prompt engineering. It is worth noting that I was already quite knowledgable in these languages and able to guide GPT4 through the processes using prompts. Hopefully, humans will always be necessary for some reason or another- I quite like humans and it'd be a shame for our existence to be useless :).
