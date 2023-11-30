@@ -1,6 +1,8 @@
 # Bitter
 Bitter - A Mock Twitter-like Social Media App
 
+### This project was abandoned in favor of uStock. See https://github.com/galcohavy10
+
 ![Untitled design](https://user-images.githubusercontent.com/96891588/229640942-02aff651-96d2-457b-8591-e6656f8a755b.png)
 
 Bitter is an open-source, professional mock social media app designed to imitate Twitter's functionality. 
